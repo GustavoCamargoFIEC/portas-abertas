@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIEC Portas Abertas</title>
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <img src="img/logo-fiec-vermelho.png" alt="Logo Fiec">
+  </header>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1" id="slide1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"
+          id="slide2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"
+          id="slide3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"
+          id="slide4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev" onclick="mudarBlock()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next" onclick="mudarBlock()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="block">
+      <div id="contentBlock">
+        <div id="pag1">
+          <h1>Seja bem-vindo!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores repellat modi numquam iusto
+            cupiditate cumque laboriosam eius, maxime ullam autem dolor nostrum aspernatur quae, fuga illum, consectetur
+            laborum doloremque? Minus vitae inventore eos, temporibus maiores optio aspernatur nesciunt aliquid modi
+            omnis. Consequuntur nisi molestiae magni laboriosam perferendis velit earum beatae reprehenderit eius sint,
+            labore quasi, praesentium, libero reiciendis? Omnis eum voluptatibus dolores non debitis necessitatibus ex
+            nesciunt totam beatae!</p>
+        </div>
+        <div id="pag2">
+          <h1>Veja quais são os componentes de um computador!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores repellat modi numquam iusto
+            cupiditate cumque laboriosam eius, maxime ullam autem dolor nostrum aspernatur quae, fuga illum, consectetur
+            laborum doloremque? Minus vitae inventore eos, temporibus maiores optio aspernatur nesciunt aliquid modi
+            omnis. Consequuntur nisi molestiae magni laboriosam perferendis velit earum beatae reprehenderit eius sint,
+            labore quasi, praesentium, libero reiciendis? Omnis eum voluptatibus dolores non debitis necessitatibus ex
+            nesciunt totam beatae!</p>
+        </div>
+        <div id="pag3">
+          <h1>Jogos feitos por alunos!</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores repellat modi numquam iusto
+            cupiditate cumque laboriosam eius, maxime ullam autem dolor nostrum aspernatur quae, fuga illum, consectetur
+            laborum doloremque? Minus vitae inventore eos, temporibus maiores optio aspernatur nesciunt aliquid modi
+            omnis. Consequuntur nisi molestiae magni laboriosam perferendis velit earum beatae reprehenderit eius sint,
+            labore quasi, praesentium, libero reiciendis? Omnis eum voluptatibus dolores non debitis necessitatibus ex
+            nesciunt totam beatae!</p>
+        </div>
+        <div id="pag4">
+          <h1>Formulário de avaliação</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores repellat modi numquam iusto
+            cupiditate cumque laboriosam eius, maxime ullam autem dolor nostrum aspernatur quae, fuga illum, consectetur
+            laborum doloremque? Minus vitae inventore eos, temporibus maiores optio aspernatur nesciunt aliquid modi
+            omnis. Consequuntur nisi molestiae magni laboriosam perferendis velit earum beatae reprehenderit eius sint,
+            labore quasi, praesentium, libero reiciendis? Omnis eum voluptatibus dolores non debitis necessitatibus ex
+            nesciunt totam beatae!</p>
+        </div>
+        <a id="buttonBlock" href="https://www.fiec.com.br/site/noticia/5289/ver.do" target="_blank">CLIQUE AQUI</a>
+      </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
