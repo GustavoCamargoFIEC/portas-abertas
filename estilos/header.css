@@ -10,6 +10,16 @@
 #back:visited {
     text-decoration: none;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 header img {
     margin-left: -35px;
 }
