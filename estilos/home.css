@@ -67,13 +67,17 @@ main {
 }
 
 #buttonBlock {
+    position: absolute;
+    top: 80%;
     text-decoration: none;
     text-align: center;
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #e30016;
     color: white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.884);
+    width: 70%;
+    font-size: 20px;
 }
 #buttonBlock:hover{
     background-color: #263173;
@@ -81,6 +85,41 @@ main {
     font-weight: bold;
     transform: scale(1.05);
     transition: 0.2s;
+}
+.small {
+    position: absolute;
+    top: 90%;
+    color: white;
+}
+#sm1{
+    display: block;
+}
+#sm2{
+    display: none;
+}
+#sm3{
+    display: none;
+}
+
+#qrcode {
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.589);
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    transform: translate(-50% -50%);
+    width: 220px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#qrcode h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150%;
+}
+#qrcode img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .carousel-item {

@@ -1,0 +1,16 @@
+@media (max-width: 1150px) {
+    #qrcode {
+        left: 75%;
+    }
+    #contentBlock p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 900px) {
+    #qrcode {
+        left: 70%;
+    }
+    #contentBlock p {
+        font-size: 1.1rem;
+    }
+}
