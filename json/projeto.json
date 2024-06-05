@@ -1,0 +1,282 @@
+[
+    {
+        "Processador": [
+        {
+            "tipo": "Intel Pentium Gold G6400",
+            "imagem": "https://i.zst.com.br/thumbs/12/13/15/1950478111.jpg",
+            "faixadepreco": "R$ 350,00 a R$ 450,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 2,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "AMD Ryzen 5 3600",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8bb9MI5NwE0f_RO_5Q6P-HxRpFU1p-YgXNQ&s",
+            "faixadepreco": "800,00 a 1.000,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Intel Core i9-10900K",
+            "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlp9ZEbSi3pTC1pPCM4f9zqAGX1S5nyyTRXg&s",
+            "faixadepreco": "2.340,00 a 2.860,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Placa_de_vídeo": [
+        {
+            "tipo": "NVIDIA GeForce GT 1030",
+            "imagem": "https://cdn.dooca.store/2624/products/124768-5-placa-de-video-nvidia-geforce-gt1030-2gb-pci-e-msi-oc-912-v809-2826-124768.jpeg?v=1654614143",
+            "faixadepreco": "450,00 a 600,00",
+            "prefenciadeuso": "cotidiano/escritorio",
+            "notadesempenho": 2,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "NVIDIA GeForce GTX 1660 Super",
+            "imagem": "https://static.gigabyte.com/StaticFile/Image/Global/8065138a16efda86224a1582c41bd579/Product/23911",
+            "faixadepreco": "1.500,00 a 2.000,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "NVIDIA GeForce RTX 3080",
+            "imagem": "https://m.media-amazon.com/images/I/61juKdIql1L.jpg",
+            "faixadepreco": "5.000,00 a 6.500,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Placa_de_som": [
+        {
+            "tipo": "Placa de Som USB Virtual 7.1 CH 3D",
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_624849-MLB31185981000_062019-F.webp",
+            "faixadepreco": "15,00 a 30,00",
+            "prefenciadeuso": "cotidiano",
+            "notadesempenho": 2,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Adaptador USB Placa De Audio Ugreen",
+            "imagem": "https://http2.mlstatic.com/D_NQ_NP_698362-MLB50895218045_072022-O.webp",
+            "faixadepreco": "60,00 a 80,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Placa De Som Gamer Creative, Pci-e Express High-Performance Sound Blaster Z Se - 70sb15000000",
+            "imagem": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/473708/Placa-De-Som-Gamer-Creative-Pci-e-Express-High-Performance-Sound-Blaster-Z-Se-70sb150000004_1688738889_gg.jpg",
+            "faixadepreco": "1.800,00 a 2.500,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Placa-mãe": [
+        {
+            "tipo": "ASUS PRIME A320M-K",
+            "imagem": "https://www.visaovip.com/imagem/mb-amd/placa-mae-asus-prime-a320m-k-socket-am4-vga-ddr4/2/609147.jpg?pfdrid_c=true",
+            "faixadepreco": "350,00 a 450,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 2,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "MSI B450 TOMAHAWK MAX",
+            "imagem": "https://down-br.img.susercontent.com/file/br-11134207-7r98r-lll0hfxpxnmbff",
+            "faixadepreco": "600,00 a 800,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "ASUS ROG STRIX Z590-E GAMING",
+            "imagem": "https://m.media-amazon.com/images/I/61NahyoLtVL._AC_UF1000,1000_QL80_.jpg",
+            "faixadepreco": "1.500,00 a 2.000,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Memória_RAM": [
+        {
+            "tipo": "Kingston ValueRAM 4GB DDR4",
+            "imagem": "https://images.kabum.com.br/produtos/fotos/94170/94170_1513880401_g.jpg",
+            "faixadepreco": "150,00 a 200,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 2,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "Corsair Vengeance LPX 16GB DDR4",
+            "imagem": "https://m.media-amazon.com/images/I/51W4+1Da0IL._AC_UF894,1000_QL80_.jpg",
+            "faixadepreco": "600,00 a 800,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "G.Skill Trident Z Royal 32GB DDR4",
+            "imagem": "https://m.media-amazon.com/images/I/61NahyoLtVL._AC_UF1000,1000_QL80_.jpg",
+            "faixadepreco": "2.000,00 a 2.500,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Armazenamento": [
+        {
+            "tipo": "Kingston A400 240GB SSD",
+            "imagem": "https://www.kingstonstore.com.br/cdn/shop/products/A400_SA400S37_hr_22_11_2016_18_59_c7db3016-9f55-46f8-9b0d-f480e25d55df.jpg?v=1560977836",
+            "faixadepreco": "150,00 a 250,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 3,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "Samsung 970 EVO Plus 500GB SSD",
+            "imagem": "https://eletronicasantana.vteximg.com.br/arquivos/ids/112886-460-460/SSD-970-EVO-Plus-500GB-M-2-NVME-Samsung-1.jpg?v=638481925918900000",
+            "faixadepreco": "600,00 a 800,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Samsung 970 Pro 1TB SSD",
+            "imagem": "https://m.media-amazon.com/images/I/715-M+WxYoL._AC_UF894,1000_QL80_.jpg",
+            "faixadepreco": "1.200,00 a 1.500,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Fonte_de_Alimentação": [
+        {
+            "tipo": "Corsair VS550 550W",
+            "imagem": "https://assets.corsair.com/image/upload/f_auto,q_auto/content/CP-9020097-EU-VS550-01.png",
+            "faixadepreco": "250,00 a 350,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 3,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "EVGA 600 W1 600W",
+            "imagem": "https://images.kabum.com.br/produtos/fotos/518028/fonte-evga-600-w1-600w-80-white-100-w1-0600-k-100-w1-0600-k_1715785119_g.jpg",
+            "faixadepreco": "350,00 a 500,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Corsair RM850x 850W",
+            "imagem": "https://images.kabum.com.br/produtos/fotos/97145/97145_1529491824_index_g.jpg",
+            "faixadepreco": "800,00 a 1.000,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },
+    {
+        "Gabinete": [
+        {
+            "tipo": "Aerocool Cylon",
+            "imagem": "https://static.mundomax.com.br/produtos/63858/550/1.webp",
+            "faixadepreco": "200,00 a 300,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 3,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "NZXT H510",
+            "imagem": "https://images2.kabum.com.br/produtos/fotos/110022/gabinete-gamer-nzxt-h510-elite-mid-tower-rgb-com-fan-lateral-e-frontal-em-vidro-branco-ca-h510e-w1_1581539235_g.jpg",
+            "faixadepreco": "400,00 a 600,00",
+            "prefenciadeuso": "escritorio/gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": "Corsair Obsidian 500D",
+            "imagem": "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/c/cc-9011139-ww.jpg",
+            "faixadepreco": "1.000,00 a 1.500,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 5,
+            "notabeneficio": 3
+
+        }
+    ]
+    },    
+    {
+        "Cooler": [
+        {
+            "tipo": "Cooler Cooler Master HYPER H410R",
+            "imagem": "https://cdn.coolermaster.com/media/assets/1006/hyper-h410r-gallery-2-zoom.png",
+            "faixadepreco": "180,00 a 250,00",
+            "prefenciadeuso": "escritorio/cotidiano",
+            "notadesempenho": 5,
+            "notabeneficio": 5
+
+        },
+        {
+            "tipo": "Cooler Redragon Thor 120mm CC-9103",
+            "imagem": "https://m.media-amazon.com/images/I/51e666R3ElL._SL500_.jpg",
+            "faixadepreco": "150,00 a 200,00",
+            "prefenciadeuso": "gamer",
+            "notadesempenho": 4,
+            "notabeneficio": 4
+
+        },
+        {
+            "tipo": " Cooler Cooler Master RH-I50-20FK-R1",
+            "imagem": "https://m.media-amazon.com/images/I/41900xocAUL._SL500_.jpg",
+            "faixadepreco": "50,00 a 70,00",
+            "prefenciadeuso": "cotidiano",
+            "notadesempenho": 3,
+            "notabeneficio": 3
+
+        }
+    ]
+    }
+
+]
