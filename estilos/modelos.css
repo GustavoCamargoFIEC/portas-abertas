@@ -7,14 +7,13 @@ body {
 }
 
 main {
-    padding: 80px 20px 60px; /* Adiciona padding-top e padding-bottom */
+    padding: 80px 20px 60px; 
     display: flex;
     justify-content: space-between;
 }
 
 .coluna {
     flex: 1;
-    margin: 0 15px; /* Aumenta a margem para mais espaçamento */
 }
 
 .modelopc {
@@ -28,7 +27,7 @@ main {
 }
 
 .modelopc img {
-    width: 150px; /* Aumenta a largura das imagens */
+    width: 150px;
     height: auto;
     margin-right: 20px;
 }
