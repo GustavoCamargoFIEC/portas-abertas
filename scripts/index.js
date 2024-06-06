@@ -29,7 +29,7 @@ function mudarBlock() {
         sm4.style.display= "none"
     }
     if (document.getElementById("slide2").classList== 'active') {
-        botao.href= "templates/modelos.html"
+        botao.href= "templates/componentes.html"
         botao.setAttribute("target","_self")
         pag1.style.display= "none"
         pag2.style.display= "block"
@@ -41,7 +41,7 @@ function mudarBlock() {
         sm4.style.display= "none"
     }
     if (document.getElementById("slide3").classList== 'active') {
-        botao.href= "templates/componentes.html"
+        botao.href= "templates/modelos.html"
         botao.setAttribute("target","_self")
         pag1.style.display= "none"
         pag2.style.display= "none"

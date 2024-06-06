@@ -1,46 +1,61 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+}
+
+main {
+    width: 90%;
+    margin: 7rem auto 0 7rem;
+}
+
+p {
+    font-size: 2rem;
+    font-family: Roboto;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.2rem;
+    font-family: Montserrat;
+}
+
+#back {
+    font-size: 1.6rem;
+}
+
+.container {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 33%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: white;
-}
-main {
-    padding-top: 2450px; /* Ajuste conforme necessário para a altura da header */
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px; 
-    max-width: 1000px;
-    margin: auto;
-    align-items: flex-start;
-    padding-top: 50px; 
-    padding-bottom: 50px; 
+    user-select: none;
 }
 
-.pecapc {
-    background: white;
-    border-radius: 50px; 
-    padding: 20px;
-    text-align: center;
+.card p {
+    margin: 0;
 }
 
-.pecapc img {
-    max-width: 100%;
-    height: 280px;
-    border-radius: 5px;
+.pDiv {
+    padding-bottom: 5rem;
 }
 
-.pecapc h2 {
-    font-size: 30px;
-    margin-bottom: 10px; 
+.container img {
+    height: 25rem;
+    margin-bottom: 2rem;
 }
 
-.pecapc p {
-    font-size: 25px;
+@media (max-width: 800px) {
+    .card {
+        width: 100%;
+    }
 }
-
