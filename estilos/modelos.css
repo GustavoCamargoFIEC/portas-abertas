@@ -6,9 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: white;
 }
-
+main {
+    padding-top: 2450px; /* Ajuste conforme necessário para a altura da header */
+}
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -18,17 +20,13 @@ body {
     align-items: flex-start;
     padding-top: 50px; 
     padding-bottom: 50px; 
-    margin-left: 20px; /* Adicionando margem à esquerda */
-    margin-right: 20px; /* Adicionando margem à direita */
 }
 
 .pecapc {
-    background: #fff;
-    border: 5px solid #0066cc; /* Adicionando borda azul */
+    background: white;
     border-radius: 50px; 
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .pecapc img {
@@ -38,12 +36,11 @@ body {
 }
 
 .pecapc h2 {
-    font-size: 24px; /* Tamanho do título */
-    color: #0066cc; /* Cor do texto */
-    margin-bottom: 10px; /* Espaçamento inferior */
+    font-size: 30px;
+    margin-bottom: 10px; 
 }
 
 .pecapc p {
-    font-size: 18px; /* Tamanho do texto */
-    color: #0066cc; /* Cor do texto */
+    font-size: 25px;
 }
+
