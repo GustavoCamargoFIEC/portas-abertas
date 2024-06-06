@@ -1,0 +1,52 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: 70px auto;
+}
+
+p {
+    font-size: 2rem;
+    font-family: Roboto;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.2rem;
+    font-family: Montserrat;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 33%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.card p {
+    margin: 0;
+}
+
+.pDiv {
+    padding-bottom: 50px;
+}
+
+.container img {
+    height: 250px;
+    width: 50%;
+    margin-bottom: 20px;
+}
