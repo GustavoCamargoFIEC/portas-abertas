@@ -2,19 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: antiquewhite;
     color: #333;
 }
 
 main {
-    padding: 80px 20px 60px; /* Adiciona padding-top e padding-bottom */
+    padding: 80px 20px 60px; 
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .coluna {
     flex: 1;
-    margin: 0 15px; /* Aumenta a margem para mais espaçamento */
 }
 
 .modelopc {
@@ -25,10 +25,11 @@ main {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0056b3;
 }
 
 .modelopc img {
-    width: 150px; /* Aumenta a largura das imagens */
+    width: 150px;
     height: auto;
     margin-right: 20px;
 }
